@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Tests" verbose="5" data-provider-thread-count="1">
+	<test name="search by">
+		<parameter name="path" value="/"/>
+		<classes>
+            <class name="SearchByBacklinksTest"/>
+		</classes>
+	</test>
+</suite>
